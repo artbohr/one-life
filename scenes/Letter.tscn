@@ -1,0 +1,74 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/letter.png" type="Texture" id=1]
+[ext_resource path="res://font/pixelFJ8pt1__.TTF" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+
+size = 10
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 2 )
+_sections_unfolded = [ "Extra Spacing", "Font", "Resource", "Settings" ]
+
+[node name="Letter" type="Node2D"]
+
+position = Vector2( 622.061, 351.478 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+scale = Vector2( 4.5, 4.5 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Label" type="Label" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -171.0
+margin_top = -209.0
+margin_right = 709.0
+margin_bottom = 208.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.0313726, 0.0784314, 0.117647, 1 )
+text = " Daddy, do you remember that day when I was
+ really little and we went to Greenbelt park?
+ I just wanted to tell you how great was this day.
+
+
+ I remember how green the grass were, how tall 
+ were the trees and the bright yellow bench
+ we sat on. The delicious cotton candy you bought
+ me and that sweet old couple with a dog that
+ approached us. I even shared some cotton with
+ the dog, he was suspicious of it,
+ but he took a leap of faith and didn't regret
+ it at the end.
+
+
+ I wish mom were there with us,
+ that would be a perfect day.
+
+	
+	
+	
+		
+   Love you,
+
+
+   Lily."
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Focus", "Hint", "Margin", "Material", "Mouse", "Rect", "Size Flags", "Theme", "Visibility", "custom_colors", "custom_constants", "custom_fonts", "custom_styles" ]
+
+
